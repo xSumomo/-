@@ -108,3 +108,35 @@ $(document).ready(function() {
               }
     });
 });
+
+
+
+
+var clickHandler = function (e){
+
+	e.preventDefault();
+
+	var pdfURL = this.getAttribute("href");
+
+	var options = {
+		pdfOpenParams: {
+			navpanes: 0,
+			toolbar: 0,
+			statusbar: 0,
+			view: "FitV"
+		}
+	};
+
+	var myPDF = PDFObject.embed(pdfURL, "#pdf", options);
+
+	var el = document.querySelector("#results");
+	el.setAttribute("class", (myPDF) ? "success" : "fail");
+	el.innerHTML = (myPDF) ? "PDFObject successfully embedded '" + pdfURL + "'!" : "Uh-oh, the embed didn't work.";
+
+};
+
+var a = document.querySelectorAll(".embed-link");
+
+for(var i=0; i < a.length; i++){
+	a[i].addEventListener("click", clickHandler);
+}
