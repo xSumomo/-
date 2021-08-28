@@ -1,5 +1,5 @@
 var dataSet = [
-["","&nbsp;","&#160;","<a href='https://drive.google.com/file/d/1w8GvdvjYr_K7g1obPLBEWBD-WvKPoPPX/view?usp=sharing'>88888888</a>"],
+["","&nbsp;","&#160;","<a href='https://drive.google.com/file/d/1w8GvdvjYr_K7g1obPLBEWBD-WvKPoPPX/view?usp=sharing' class='embed-link'>88888888</a>"],
 ["","","&#8209;","неразрывный пробел"],
 ["","&ensp;","&#8194;","узкий пробел (еn-шириной в букву n)"],
 ["","&emsp;","&#8195;","широкий пробел (em-шириной в букву m)"],
