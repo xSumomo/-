@@ -43,11 +43,9 @@ blockquote {
 	margin: 2em 0;
 }
 
-.pdfobject { border: solid 1px #666; }
-#results { padding: 1rem; }
 .hidden { display: none; }
-.success { color: #4F8A10; background-color: #DFF2BF; }
-.fail { color: #D8000C; background-color: #FFBABA; }
+.success { color: #4F8A10;}
+.fail { color: #D8000C;}
 
 /* убрать подсветку форм */
 a.active.focus,
