@@ -116,6 +116,7 @@
         el.setAttribute("class", (myPDF) ? "success" : "fail");
         // el.innerHTML = (myPDF) ? "PDFObject successfully embedded '" + pdfURL + "'!" : "Uh-oh, the embed didn't work.";
         // el.innerHTML = (myPDF) ? "Документ успешно открыт" : "Ой, не открывается";
+        el.innerHTML = (myPDF) ? "<a href='" + pdfURL + "' class=''>Скачать</a>";
 
     };
 
