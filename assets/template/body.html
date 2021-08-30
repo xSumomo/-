@@ -80,6 +80,7 @@
         </div>
 
         <div class="col-6 p-3">
+            <--! <div id="results" class="success my-2">Документ успешно открыт</div> !-->
             <div id="results" class="success my-2">Документ успешно открыт</div>
             <div id="pdf" class="pdfobject-container"><embed
                     src="https://mvtregubov.github.io/DocStock/assets/pdf/2021-transpaki-novogo-pokoleniya-v-180.pdf#navpanes=0&amp;toolbar=0&amp;statusbar=0&amp;view=FitV" class="pdfobject"
@@ -115,7 +116,7 @@
         var el = document.querySelector("#results");
         el.setAttribute("class", (myPDF) ? "success" : "fail");
         // el.innerHTML = (myPDF) ? "PDFObject successfully embedded '" + pdfURL + "'!" : "Uh-oh, the embed didn't work.";
-        el.innerHTML = (myPDF) ? "Документ успешно открыт" : "Ой, не открывается";
+        // el.innerHTML = (myPDF) ? "Документ успешно открыт" : "Ой, не открывается";
 
     };
 
