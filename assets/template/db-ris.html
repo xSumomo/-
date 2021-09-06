@@ -47,13 +47,13 @@
                 <tbody>
                     <tr>
                         <td>Буклет</td>
-                        <td><a href="https://github.com/mvtregubov/DocStock/tree/main/assets/ris/0001" class="embed-link">1</a></td>
+                        <td><a href="https://github.com/mvtregubov/DocStock/tree/main/assets/ris/0001">1</a></td>
                         <td>Офсет</td>
                         <td>04.08.2021</td>
                     </tr>
                     <tr>
                         <td>Буклет</td>
-                        <td><a href="https://mvtregubov.github.io/DocStock/assets/ris/0001/" class="embed-link">2</a></td>
+                        <td><a href="https://mvtregubov.github.io/DocStock/assets/ris/0001/">2</a></td>
                         <td>Офсет</td>
                         <td>04.08.2021</td>
                     </tr>
@@ -90,53 +90,8 @@
 
         </div>
 
-        <div class="col-6 p-3">
-            <!-- <div id="results" class="success my-2">Документ успешно открыт</div> -->
-            <div id="pdf" class="pdfobject-container"><embed
-                    src="https://mvtregubov.github.io/DocStock/assets/pdf/2021-transpaki-novogo-pokoleniya-v-180.pdf#navpanes=0&amp;toolbar=0&amp;statusbar=0&amp;view=FitV" class="pdfobject"
-                    type="application/pdf" title="Embedded PDF" style="overflow: auto; width: 100%; height: 100%;">
-            </div>
-            <div id="results" class="success small my-2"></div>
-
-        </div>
 
     </div>
 
 </div>
 
-
-<script src="https://mvtregubov.github.io/DocStock/assets/js/pdfobject.min.js"></script>
-<script>
-    var clickHandler = function (e) {
-
-        e.preventDefault();
-
-        var pdfURL = this.getAttribute("href");
-
-        var options = {
-            page: "1", // На какой странице открывать
-            pdfOpenParams: {
-                pagemode: 'thumbs',
-                navpanes: 1, // Включает или отключает панели навигации и вкладки 0/1
-                toolbar: 0, // Включает или выключает строку состояния 0/1
-                statusbar: 1, // Включает или выключает строку состояния 0/1
-                view: "FitV"
-            }
-        };
-
-        var myPDF = PDFObject.embed(pdfURL, "#pdf", options);
-
-        var el = document.querySelector("#results");
-        el.setAttribute("class", (myPDF) ? "success" : "fail");
-        // el.innerHTML = (myPDF) ? "PDFObject successfully embedded '" + pdfURL + "'!" : "Uh-oh, the embed didn't work.";
-        // el.innerHTML = (myPDF) ? "Документ успешно открыт" : "Ой, не открывается";
-        el.innerHTML = (myPDF) ? "<a href='" + pdfURL + "' class='btn btn-success my-3'>Скачать</a>" : "Ой, не открывается";
-
-    };
-
-    var a = document.querySelectorAll(".embed-link");
-
-    for (var i = 0; i < a.length; i++) {
-        a[i].addEventListener("click", clickHandler);
-    }
-</script>
