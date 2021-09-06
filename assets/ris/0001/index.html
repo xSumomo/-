@@ -1,41 +1,8 @@
-<html>
-    <head>
-      <title> Gallery </title>
-    </head>
-     <body>
-	 
-	 
-	 
-	 <script>
-	 
-	 var mas = ["1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg"] // массив картинок
-var to = -1;  // Счетчик, указывающий на текущую картинки
-
-function right_arrow() // Открытие следующей картинки(движение вправо)
-{ 
- var obj = document.getElementById("img");
-  if (to < mas.length-1)  to++ 
-   else
-     to = 0;
-     obj.src = mas[to];	 
-}
-
-function left_arrow() // Открытие предыдущей картинки(движение влево)
-{     
- var obj = document.getElementById("img");
-if (to > 0) to--;
-  else
-    to = mas.length-1;
-    obj.src = mas[to];	  			 
-}
-	 
-	 </script>
-	 
-	 
-	<center>
-        <img src = "1.jpeg" width = "640" height = "480"  id = "img" > </img> <br />
-        <img src = "left_arrow.jpg"   onClick = "javascript: left_arrow()" /> 
-	<img src = "right_arrow.jpg"  onClick = "javascript: right_arrow()" />
-       </center>
-    </body>
- </html>
+<img src="1.jpeg">
+<img src="2.jpeg">
+<img src="3.jpeg">
+<img src="4.jpeg">
+<img src="5.jpeg">
+<img src="6.jpeg">
+<img src="7.jpeg">
+<img src="8.jpeg">
