@@ -70,7 +70,8 @@ h1 {
   line-height: 4;
   -webkit-transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
   transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
-  background: linear-gradient(90deg, #fae198, #f5af4e, #cc9446);
+/*  background: linear-gradient(90deg, #fae198, #f5af4e, #cc9446);*/
+	background: linear-gradient(90deg, #eeca83, #e3c17c, #b4965a)
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
