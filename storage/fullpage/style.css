@@ -62,7 +62,6 @@ body {
 h1 {
   font-family: 'Alexandra Zeferino Two', serif;
   font-size: 88px;
-	color:#e3c17c;
   height: 138px;
   padding: 10px 0;
   /*text-transform: uppercase;*/
@@ -72,9 +71,9 @@ h1 {
   -webkit-transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
   transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
 /*  background: linear-gradient(90deg, #fae198, #f5af4e, #cc9446);*/
-	/*background: linear-gradient(90deg, #eeca83, #e3c17c, #b4965a);*/
-  /*-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+background: linear-gradient(90deg, #eeca83, #e3c17c, #b4965a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2 {
 /*  font-family: 'Roboto', sans-serif;*/
