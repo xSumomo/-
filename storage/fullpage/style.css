@@ -85,9 +85,8 @@ h2 {
   transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
 }
 h2 span {
-margin-top: 10px;
+margin-top: 15px;
 padding: 0 10px;
-display: block;
 background: rgba(205,170,100,0.8);
 }
 h1 {
