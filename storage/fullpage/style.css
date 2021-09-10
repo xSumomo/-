@@ -7,6 +7,7 @@
 		url('fonts/alexandra_zeferino_two.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('fonts/alexandra_zeferino_two.svg#alexandra_zeferino_two') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'Roboto';
@@ -45,7 +46,7 @@
 }
 body {
   background: #141414;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 .wrap {
   position:absolute;
