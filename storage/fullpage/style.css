@@ -42,8 +42,6 @@ h1 {
   font-size: 88px;
   height: 138px;
   padding: 10px 0;
-  /*text-transform: uppercase;*/
-  font-weight: 700;
   overflow: hidden;
   line-height: 4;
   -webkit-transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
