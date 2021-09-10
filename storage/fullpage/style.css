@@ -7,7 +7,6 @@
     url('fonts/AlexandraZeferinoTwo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
@@ -44,7 +43,6 @@ body {
 h1 {
   font-family: 'Alexandra Zeferino Two', sans-serif !important;
   color: #eeca83;
-  -webkit-text-stroke: 1px #eeca83;
   font-size: 88px;
   height: 138px;
   padding: 10px 0;
