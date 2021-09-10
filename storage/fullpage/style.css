@@ -28,7 +28,7 @@ body {
 }
 .wrap {
   position:absolute;
-  width: 50%;
+  width: 45%;
 	bottom:0; /* добавили */
   padding: 60px 40px 0px 40px;
   /* background: linear-gradient(198deg,transparent,transparent,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)); */
