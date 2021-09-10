@@ -44,7 +44,7 @@ body {
 h1 {
   font-family: 'Alexandra Zeferino Two', sans-serif !important;
   color: #eeca83;
-  -webkit-text-stroke: 2px #eeca83;
+  -webkit-text-stroke: 1px #eeca83;
   font-size: 88px;
   height: 138px;
   padding: 10px 0;
