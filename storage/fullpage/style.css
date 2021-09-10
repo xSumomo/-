@@ -1,38 +1,25 @@
-@font-face {
+/*@font-face {
 	font-family: 'Alexandra Zeferino Two';
-	src: url('fonts/alexandra_zeferino_two.eot'); /* IE 9 Compatibility Mode */
-	src: url('fonts/alexandra_zeferino_two.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('fonts/alexandra_zeferino_two.woff2') format('woff2'), /* Super Modern Browsers */
-		url('fonts/alexandra_zeferino_two.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('fonts/alexandra_zeferino_two.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('fonts/alexandra_zeferino_two.svg#alexandra_zeferino_two') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('fonts/alexandra_zeferino_two.eot');
+	src: url('fonts/alexandra_zeferino_two.eot?#iefix') format('embedded-opentype'),
+		url('fonts/alexandra_zeferino_two.woff2') format('woff2'),
+		url('fonts/alexandra_zeferino_two.woff') format('woff'),
+		url('fonts/alexandra_zeferino_two.ttf') format('truetype'),
+		url('fonts/alexandra_zeferino_two.svg#alexandra_zeferino_two') format('svg');
+}*/
+@font-face {
+    font-family: 'Alexandra Zeferino Two';
+    src: url('fonts/AlexandraZeferinoTwo.eot');
+    src: url('fonts/AlexandraZeferinoTwo.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AlexandraZeferinoTwo.woff2') format('woff2'),
+        url('fonts/AlexandraZeferinoTwo.woff') format('woff'),
+        url('fonts/AlexandraZeferinoTwo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
-}
 * {
   margin: 0;
   padding: 0;
