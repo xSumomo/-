@@ -88,7 +88,7 @@ h2 span {
 margin-top: 10px;
 padding: 0 10px;
 display: block;
-background: linear-gradient(90deg, #fae198, #f5af4e, #cc9446);
+background: rgba(205,170,100,0.8);
 }
 h1 {
   -webkit-transition-delay: 0.3s;
