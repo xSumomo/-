@@ -53,7 +53,7 @@ body {
 	bottom:0; /* добавили */
   padding: 60px 40px 0px 40px;
   /* background: linear-gradient(198deg,transparent,transparent,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)); */
-  background: linear-gradient(to bottom left,transparent,transparent,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8));
+  /* background: linear-gradient(to bottom left,transparent,transparent,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .8)); */
 }
 
 
