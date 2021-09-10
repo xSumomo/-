@@ -64,6 +64,7 @@ h1 {
   height: 138px;
   padding: 10px 0;
   /*text-transform: uppercase;*/
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   font-weight: 700;
   overflow: hidden;
   line-height: 4;
@@ -78,7 +79,8 @@ h2 {
   font-size: 28px;
   height: 240px;
   text-transform: uppercase;
-  overflow: hidden;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	overflow: hidden;
   line-height: 32;
   -webkit-transition: line-height 0.85s cubic-bezier(0.77, 0, 0.175, 1);
   margin-bottom: 30px;
