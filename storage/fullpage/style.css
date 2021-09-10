@@ -38,7 +38,7 @@ body {
 
 
 h1 {
-  font-family: 'Alexandra Zeferino Two', serif;
+  font-family: 'Alexandra Zeferino Two', sans-serif !important;
   font-size: 88px;
   height: 138px;
   padding: 10px 0;
