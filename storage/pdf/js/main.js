@@ -1,4 +1,4 @@
-const url = '../pdf/docs/kdr.pdf';
+const url = '../pdf/docs/logo.pdf';
 
 let pdfDoc = null,
   pageNum = 1,
